@@ -87,7 +87,12 @@ a{
     color: black;
     font-family: 'Major Mono Display', monospace; 
     margin-left: 1vh;
-    padding-top: 3vh;
+    position: relative;
+    top: 1.5rem;
+    font-size: 2.5em;
+    text-decoration: none;
+
+
 }
 .myNav{
     position: fixed;
@@ -98,6 +103,8 @@ a{
     background-color: #ffffff;
     z-index: 1;
 }
+
+
 
 .socialMedia{
     margin-left: 1vh;
@@ -123,9 +130,9 @@ a{
     border-width: 1px;
 
 }
-.footerSocials{
+/* .footerSocials{
 
-}
+} */
 
 /* ID */
 #profile{
@@ -143,6 +150,20 @@ a{
     width: 30vh;
     height: auto;
     transform: rotate(10deg);
+}
+
+
+
+.projectImages li {
+    display: inline-block;
+    margin-right: 20px; 
+
+}
+
+.projectImages li a img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
 }
 
 @media only screen and (max-width: 766px) {
